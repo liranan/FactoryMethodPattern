@@ -9,17 +9,10 @@ package cn.edu.uestc.factorymethodpattern.pizzaaf;
  *
  * @author Liranan
  */
-public interface PizzaIngredientFactory {
+class FrozenClams extends Clams {
 
-    public Dough createDough();
+    public String toString() {
+        return "Frozen Clams from Chesapeake Bay";
+    }
 
-    public Sauce createSauce();
-
-    public Cheese createCheese();
-
-    public Veggies[] createVeggies();
-
-    public Pepperoni createPepperoni();
-
-    public Clams createClam();
 }

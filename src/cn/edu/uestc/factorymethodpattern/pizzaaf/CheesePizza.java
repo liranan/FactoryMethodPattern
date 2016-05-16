@@ -11,7 +11,16 @@ package cn.edu.uestc.factorymethodpattern.pizzaaf;
  */
 class CheesePizza extends Pizza {
 
+    PizzaIngredientFactory ingredientFactory;
+
     public CheesePizza(PizzaIngredientFactory ingredientFactory) {
+        this.ingredientFactory = ingredientFactory;
     }
-    
+
+    void prepare() {
+        System.out.println("Prepare " + name);
+        dough = ingredientFactory.createDough();
+        sauce = ingredientFactory.createSauce();
+        cheese = ingredientFactory.createCheese();
+    }
 }

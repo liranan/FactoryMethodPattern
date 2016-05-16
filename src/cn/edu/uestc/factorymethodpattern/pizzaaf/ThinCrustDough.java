@@ -9,17 +9,10 @@ package cn.edu.uestc.factorymethodpattern.pizzaaf;
  *
  * @author Liranan
  */
-public interface PizzaIngredientFactory {
+class ThinCrustDough implements Dough {
 
-    public Dough createDough();
+    public String toString() {
+        return "Thin Crust Dough";
+    }
 
-    public Sauce createSauce();
-
-    public Cheese createCheese();
-
-    public Veggies[] createVeggies();
-
-    public Pepperoni createPepperoni();
-
-    public Clams createClam();
 }

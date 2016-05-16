@@ -9,17 +9,10 @@ package cn.edu.uestc.factorymethodpattern.pizzaaf;
  *
  * @author Liranan
  */
-public interface PizzaIngredientFactory {
+class Garlic implements Veggies {
 
-    public Dough createDough();
+    public String toString() {
+        return "Garlic";
+    }
 
-    public Sauce createSauce();
-
-    public Cheese createCheese();
-
-    public Veggies[] createVeggies();
-
-    public Pepperoni createPepperoni();
-
-    public Clams createClam();
 }

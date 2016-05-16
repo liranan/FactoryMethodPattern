@@ -9,17 +9,10 @@ package cn.edu.uestc.factorymethodpattern.pizzaaf;
  *
  * @author Liranan
  */
-public interface PizzaIngredientFactory {
+class ThickCrustDough implements Dough {
 
-    public Dough createDough();
+    public String toString() {
+        return "ThickCrust style extra thick crust dough";
+    }
 
-    public Sauce createSauce();
-
-    public Cheese createCheese();
-
-    public Veggies[] createVeggies();
-
-    public Pepperoni createPepperoni();
-
-    public Clams createClam();
 }
