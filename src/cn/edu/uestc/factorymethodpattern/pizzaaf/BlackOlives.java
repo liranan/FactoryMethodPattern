@@ -11,7 +11,8 @@ package cn.edu.uestc.factorymethodpattern.pizzaaf;
  */
 class BlackOlives implements Veggies {
 
-    public BlackOlives() {
+    public String toString() {
+        return "Black Olives";
     }
-    
+
 }

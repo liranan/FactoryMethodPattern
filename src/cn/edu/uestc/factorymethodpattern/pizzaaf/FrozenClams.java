@@ -9,7 +9,7 @@ package cn.edu.uestc.factorymethodpattern.pizzaaf;
  *
  * @author Liranan
  */
-class FrozenClams extends Clams {
+class FrozenClams implements Clams {
 
     public String toString() {
         return "Frozen Clams from Chesapeake Bay";

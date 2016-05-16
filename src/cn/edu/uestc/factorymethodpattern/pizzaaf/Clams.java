@@ -9,6 +9,7 @@ package cn.edu.uestc.factorymethodpattern.pizzaaf;
  *
  * @author Liranan
  */
-class Clams {
-    
+public interface Clams {
+
+    public String toString();
 }

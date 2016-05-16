@@ -9,7 +9,7 @@ package cn.edu.uestc.factorymethodpattern.pizzaaf;
  *
  * @author Liranan
  */
-class FreshClams extends Clams {
+class FreshClams implements Clams {
 
     public String toString() {
         return "Fresh Clams from Long Island Sound";
