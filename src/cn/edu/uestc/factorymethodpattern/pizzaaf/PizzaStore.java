@@ -19,7 +19,7 @@ public abstract class PizzaStore {
         pizza.prepare();
         pizza.bake();
         pizza.cut();
-        pizza.bake();
+        pizza.box();
         return pizza;
     }
 }
